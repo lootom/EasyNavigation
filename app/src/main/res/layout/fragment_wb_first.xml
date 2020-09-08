@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/bt01"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="展示消息红点提示"
+        android:onClick="click01" />
+
+    <Button
+        android:id="@+id/bt02"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="clear"
+        android:text="清除所有数字消息、红点提示" />
+
+    <Button
+        android:id="@+id/bt03"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="清除第一个数字消息" />
+    <Button
+        android:id="@+id/bt04"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="清除第四个红点提示" />
+    <Button
+        android:id="@+id/bt05"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="onJump"
+        android:text="跳转第二个页面，并傻笑"/>
+
+    <Button
+        android:id="@+id/bt06"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="变换样式" />
+    <Button
+        android:id="@+id/bt07"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="更换第二个未选中的图标和文字" />
+
+
+</LinearLayout>
